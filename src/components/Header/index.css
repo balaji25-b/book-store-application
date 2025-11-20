@@ -1,0 +1,42 @@
+.header-container {
+    display: d-flex;
+    justify-content: center;
+    background-color: #ffe619;
+}   
+.header-content-container { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+.icon-name {
+    display: none;
+}
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 30px;
+    height: 40px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin: 10px;
+}
+.nav-items-container {
+    display: flex;
+}
