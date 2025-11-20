@@ -16,6 +16,17 @@
 .icon-name {
     display: none;
 }
+
+@media screen and (min-width: 768px) {
+    .icon-name{
+        display: inline;
+    }
+    .icon {
+        margin-right: 7px;
+        font-size: 20px;
+    }
+}
+
 .icon-container {
     display: flex;
     align-items: center;
